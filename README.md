@@ -26,7 +26,7 @@ Then set it up following the steps given here:
 
 Then install these extra packages
 ```
-$ sudo apt install bmap-tools
+$ sudo apt install bmap-tools u-boot-tools
 ```
 
 
