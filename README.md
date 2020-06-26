@@ -7,7 +7,7 @@ You need a fair amount of knowledge of Linux and Android to get this to work.
 Be warned.
 
 My build system:
- - Ubuntu 16.04
+ - Ubuntu 20.04
 
 My Raspberry Pi configuration:
  - Raspberry Pi 3B or 3B+
@@ -52,7 +52,7 @@ $ repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b a
 ## Get the Raspberry Pi code and sync
 
 ```
-$ git clone https://github.com/csimmonds/a4rpi-local-manifest .repo/local_manifests -b android10
+$ git clone https://moukail@bitbucket.org/moukafih/local_manifest.git .repo/local_manifests -b master
 $ repo sync -c
 ```
 
