@@ -10,6 +10,7 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0" />
 
     <project path="device/moukafih/rasp3" name="rasp3_device" revision="master" remote="moukafih"/>
+    <project path="device/moukafih/rasp4" name="rasp4_device" revision="master" remote="moukafih"/>
     <project path="scripts" name="a4rpi_scripts" revision="master" remote="moukafih"/>
 
     <remove-project name="platform/external/mesa3d"/>
