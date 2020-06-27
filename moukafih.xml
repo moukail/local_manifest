@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="moukafih" fetch="https://moukail@bitbucket.org/moukafih" />
+    <remote name="linaro-android"
+            fetch="git://android.git.linaro.org/"
+            review="review.android.git.linaro.org" />
     <remote name="arpi" fetch="https://github.com/android-rpi"/>
     <remote name="TeamWin" fetch="https://github.com/TeamWin"/>
     <remote name="denx" fetch="https://gitlab.denx.de/u-boot"/>
@@ -20,6 +23,11 @@
     <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.14.y" remote="arpi"/>
     <project path="hardware/rpi" name="hardware_rpi" revision="oreo" remote="arpi"/>
     <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="oreo" remote="arpi"/>
+
+    <!-- db410c device config -->
+    <project path="device/linaro/dragonboard" name="device/linaro/dragonboard410c" revision="dragonboard" remote="linaro-android" groups="device,dragonboard,pdk" />
+    <!-- db410c pre-built kernel tree -->
+    <project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard410c-kernel" revision="dragonboard-kernels" remote="linaro-android" groups="device,dragonboard,pdk" />
 
     <project path="u-boot" name="u-boot" revision="refs/tags/v2020.01" remote="denx"/>
 </manifest>
