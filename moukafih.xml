@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="moukafih" fetch="https://moukail@bitbucket.org/moukafih" />
+    <remote name="moukafih" fetch="https://github.com/moukail" />
     <remote name="linaro-android"
             fetch="git://android.git.linaro.org/"
             review="review.android.git.linaro.org" />
@@ -11,10 +11,10 @@
     <!-- TWRP lives in omnirom, not AOSP
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0" />
-
-    <project path="device/moukafih/rasp3" name="raspi3_device.git" revision="master" remote="moukafih"/>
-    <project path="device/moukafih/rasp4" name="raspi4_device.git" revision="master" remote="moukafih"/>
-    <project path="scripts" name="a4rpi_scripts.git" revision="master" remote="moukafih"/> -->
+    <project path="scripts" name="a4rpi_scripts.git" revision="master" remote="moukafih"/>
+ -->
+    <project path="device/moukafih/raspi3" name="raspi3_device.git" revision="android8" remote="moukafih"/>
+    <project path="device/moukafih/raspi4" name="raspi4_device.git" revision="android8" remote="moukafih"/>
 
     <remove-project name="platform/external/mesa3d"/>
     <project path="external/mesa3d" name="external_mesa3d" revision="oreo" remote="arpi"/>
