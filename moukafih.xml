@@ -18,6 +18,7 @@
 
     <remove-project name="platform/external/mesa3d"/>
     <project path="external/mesa3d" name="external_mesa3d" revision="pie" remote="arpi"/>
+    <remove-project name="platform/external/drm_gralloc"/>
     <project path="external/drm_gralloc" name="external_drm_gralloc" revision="pie" remote="arpi"/>
 
     <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.66" remote="arpi"/>
