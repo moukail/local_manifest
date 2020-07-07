@@ -13,16 +13,16 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0" />
     <project path="scripts" name="a4rpi_scripts.git" revision="master" remote="moukafih"/>
  -->
-    <project path="device/moukafih/raspi3" name="raspi3_device.git" revision="android8" remote="moukafih"/>
-    <project path="device/moukafih/raspi4" name="raspi4_device.git" revision="android8" remote="moukafih"/>
+    <project path="device/moukafih/raspi3" name="raspi3_device.git" revision="android9" remote="moukafih"/>
+    <project path="device/moukafih/raspi4" name="raspi4_device.git" revision="android9" remote="moukafih"/>
 
     <remove-project name="platform/external/mesa3d"/>
-    <project path="external/mesa3d" name="external_mesa3d" revision="oreo" remote="arpi"/>
-    <project path="external/drm_gralloc" name="external_drm_gralloc" revision="oreo" remote="arpi"/>
+    <project path="external/mesa3d" name="external_mesa3d" revision="pie" remote="arpi"/>
+    <project path="external/drm_gralloc" name="external_drm_gralloc" revision="pie" remote="arpi"/>
 
-    <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.y" remote="arpi"/>
-    <project path="hardware/rpi" name="hardware_rpi" revision="oreo" remote="arpi"/>
-    <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="oreo" remote="arpi"/>
+    <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.66" remote="arpi"/>
+    <project path="hardware/rpi" name="hardware_rpi" revision="pie" remote="arpi"/>
+    <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="pie" remote="arpi"/>
 
     <!-- db410c device config -->
     <project path="device/linaro/dragonboard" name="device/linaro/dragonboard410c" revision="dragonboard" remote="linaro-android" groups="device,dragonboard,pdk" />
